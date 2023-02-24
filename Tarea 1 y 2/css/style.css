@@ -1,0 +1,117 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    margin: 0;
+}
+
+nav ul li a:hover{
+    background: #e24304;
+}
+
+nav ul li a.active{
+    background: #e24304;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: .5rem;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    height: 55%;
+}
+
+/* creame responsie*/
+
+@media screen and (max-width: 800px) {
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        display: block;
+        padding: 1rem;
+    }
+
+    footer{
+        background-color: #333;
+        color: #fff;
+        padding: .5rem;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        height: 60%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    
+    footer{
+        background-color: #333;
+        color: #fff;
+        padding: .5rem;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        height: 60%;
+    }
+}
